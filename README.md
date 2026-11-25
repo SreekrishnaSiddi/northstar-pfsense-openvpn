@@ -144,7 +144,3 @@ This connects to the earlier labs: an off-site IT user connects through the fire
 - Integrating a firewall into an existing AD/DNS/DHCP environment without re-addressing
 - Methodical troubleshooting with client and server logs, `Test-NetConnection`, `ipconfig`, and `Get-NetConnectionProfile`
 
-## Resume bullets
-- Deployed a **pfSense firewall** to segment a lab network into corporate and guest zones, with rules giving guests internet access while blocking internal servers, file shares, and firewall management.
-- Configured **OpenVPN remote access** with an internal certificate authority and per-user certificates plus password authentication, giving off-site IT staff split-tunnel access to internal resources.
-- Resolved a VPN issue where a workstation was reachable but the domain controller was not, by tracing it to a Public network profile and a misconfigured **/8 subnet mask** on the DC.
